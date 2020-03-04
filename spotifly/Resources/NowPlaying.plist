@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Now Playing</string>
+			<key>footerText</key>
+			<string></string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>titleTop</string>
+			<key>label</key>
+			<string>Put Title at Top</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>titleCenter</string>
+			<key>label</key>
+			<string>Put Title in Center</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>controlsTop</string>
+			<key>label</key>
+			<string>Put Playback Controls at Top</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>durationTop</string>
+			<key>label</key>
+			<string>Put Duartion Labels at Top</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>footerTop</string>
+			<key>label</key>
+			<string>Put Footer at Top</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>autoHideDurationLabels</string>
+			<key>label</key>
+			<string>Auto Hide Duration Labels</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>a</string>
+			<key>label</key>
+			<string>Blackout Mode(x)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>canvasToggle</string>
+			<key>label</key>
+			<string>Canvas Toggle</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>canvasTap</string>
+			<key>label</key>
+			<string>Canvas Tap Toggle</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>a</string>
+			<key>label</key>
+			<string>Car View(x)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>statusBarAlwaysOn</string>
+			<key>label</key>
+			<string>Always Show Status Bar</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>lyricsToggle</string>
+			<key>label</key>
+			<string>Real Time Lyrics</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>a</string>
+			<key>label</key>
+			<string>Real Time Lyrics Blackout Mode(x)</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Now Playing</string>
+</dict>
+</plist>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Now Playing Annoyances</string>
+			<key>footerText</key>
+			<string></string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>geniusEnabled</string>
+			<key>label</key>
+			<string>Disable Genius</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>storylineEnabled</string>
+			<key>label</key>
+			<string>Disable Storylines</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>canvasEnabled</string>
+			<key>label</key>
+			<string>Disable Canvas</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>a</string>
+			<key>label</key>
+			<string>Disable Screenshot Banner(x)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>queueFooter</string>
+			<key>label</key>
+			<string>Disable Queue Screen Controls</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>socialListening</string>
+			<key>label</key>
+			<string>Disable Social Listening Section</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Now Playing Annoyances</string>
+</dict>
+</plist>

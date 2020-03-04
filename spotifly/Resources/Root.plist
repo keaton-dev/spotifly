@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>A tweak by keaton</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>label</key>
+			<string>SpotiFly</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string> com.keaton.spotifly/settingchanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>tweakEnabled</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>YourLibraryRootListController</string>
+			<key>icon</key>
+			<string></string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Your Library</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>NowPlayingRootListController</string>
+			<key>icon</key>
+			<string></string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Now Playing</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>NowPlayingAnnoyancesRootListController</string>
+			<key>icon</key>
+			<string></string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Now Playing Annoyances</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>GeneralRootListController</string>
+			<key>icon</key>
+			<string></string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>General</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>ExperimentalRootListController</string>
+			<key>icon</key>
+			<string></string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Experimental</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>A tweak by keaton</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>killSpotify</string>
+			<key>label</key>
+			<string>Apply</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SpotiFly</string>
+</dict>
+</plist>

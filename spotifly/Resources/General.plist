@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>General</string>
+			<key>footerText</key>
+			<string></string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>importMusic</string>
+			<key>label</key>
+			<string>Import Your Music</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>voiceSearchEnabled</string>
+			<key>label</key>
+			<string>Voice Search</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>newVoiceSearchEnabled</string>
+			<key>label</key>
+			<string>New Voice Search</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>floatingMic</string>
+			<key>label</key>
+			<string>Floating Mic Button</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>verifiedEnabled</string>
+			<key>label</key>
+			<string>Verified Profile Badge</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>reportAbuse</string>
+			<key>label</key>
+			<string>Report Abuse</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>nowPlayingBarImprovements</string>
+			<key>label</key>
+			<string>Old Now Playing Bar</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>a</string>
+			<key>label</key>
+			<string>No Burger Menu Icon on Lockscreen(x)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>a</string>
+			<key>label</key>
+			<string>What's New Section(x)</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>General</string>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+Package: com.keaton.spotifly
+Name: SpotiFly
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Make your Spotify fly!(Not literally)
+Maintainer: keaton
+Author: keaton
+Section: Tweaks
