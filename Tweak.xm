@@ -9,7 +9,7 @@ album artwork in playlist toggle
 %hook SPTVISREFFlagsServiceImplementation
 -(BOOL)headerEnabled {
     if(enabled && newUI){
-        return true;
+        return YES;
     }
     return %orig;
 }
@@ -18,7 +18,7 @@ album artwork in playlist toggle
 %hook SPTFreeTierTestManagerImplementation
 -(BOOL)isConsolidatedExperienceEnabled {
     if(enabled && freeTierUI) {
-        return true;
+        return YES;
     }
     return %orig;
 }
@@ -27,7 +27,7 @@ album artwork in playlist toggle
 %hook SPTFreeTierPlaylistTestManagerImplementation
 -(BOOL)isDoubleStatePlayButtonEnabled {
     if(enabled && doublePlay) {
-        return true;
+        return YES;
     }
     return %orig;
 }
@@ -36,7 +36,7 @@ album artwork in playlist toggle
 %hook SPTFreeTierCreatePlaylistTestManagerImplementation
 -(BOOL)isCreatePlaylistEnabled{
     if(enabled && newPlaylistUI) {
-        return true;
+        return YES;
     }
     return %orig;
 }
@@ -45,16 +45,16 @@ album artwork in playlist toggle
 %hook SPTCanvasTestManager
 -(BOOL)shouldEnableCanvasPlaylist {
     if(enabled && canvasPlaylist) {
-        return true;
+        return YES;
     }
     return %orig;
 }
 %end
-//True Shuffle
+//YES Shuffle
 %hook SPTFreeTierTestManagerImplementation
 -(BOOL)isWeightedShufflePlayDisabled {
-    if(enabled && trueShuffle) {
-        return true;
+    if(enabled && YESShuffle) {
+        return YES;
     }
     return %orig;
 }
@@ -72,7 +72,7 @@ album artwork in playlist toggle
 %hook VISREFPlayButtonForegroundView
 -(BOOL)isShuffleBadgeShown {
     if(enabled && shuffleBadge) {
-        return false;
+        return NO;
     }
     return %orig;
 }
@@ -93,7 +93,7 @@ album artwork in playlist toggle
 %hook SPTNowPlayingInformationUnitViewModelImplementation
 -(BOOL)centerAlignText {
     if(enabled && titleCenter) {
-        return true;
+        return YES;
     }
     return %orig;
 }
@@ -129,7 +129,7 @@ album artwork in playlist toggle
 %hook SPTNowPlayingInformationUnitViewController
 -(BOOL)nowPlayingDurationViewShouldAlwaysShowDurationLabels:(id)arg {
     if(enabled && autoHideDurationLabels) {
-        return false;
+        return NO;
     }
     return %orig;
 }
@@ -141,14 +141,14 @@ blackout mode toggle
 %hook SPTCanvasTestManager
 -(BOOL)shouldDisplayCanvasToggle {
     if(enabled && canvasToggle) {
-        return true;
+        return YES;
     }
     return %orig;
 }
 //Canvas Tap Toggle
 -(BOOL)shouldEnableCanvasTap {
     if(enabled && canvasTap) {
-        return true;
+        return YES;
     }
     return %orig;
 }
@@ -160,7 +160,7 @@ car view toggle
 %hook SPTStatusBarToken
 -(BOOL)hidden {
     if(enabled && statusBarAlwaysOn) {
-        return false;
+        return NO;
     }
     return %orig;
 }
@@ -169,7 +169,7 @@ car view toggle
 %hook SPTLyricsV2TestManagerImplementation
 -(BOOL)isFeatureEnabled {
     if(enabled && rtLyrics) {
-        return true;
+        return YES;
     }
     return %orig;
 }
@@ -183,7 +183,7 @@ real time lyrics blakout mode toggle
 %hook SPTGeniusService
 -(BOOL)isTrackGeniusEnabled:(id)arg {
     if(enabled && geniusEnabled) {
-        return false;
+        return NO;
     }
     return %orig;
 }
@@ -192,7 +192,7 @@ real time lyrics blakout mode toggle
 %hook SPTStorylinesEnabledManager
 -(BOOL)storylinesEnabledForTrack:(id)arg {
     if(enabled && storylineEnabled) {
-        return false;
+        return NO;
     }
     return %orig;
 }
@@ -201,7 +201,7 @@ real time lyrics blakout mode toggle
 %hook SPTCanvasTestManager
 -(BOOL)isCanvasEnabled{
     if(enabled && canvasEnabled) {
-        return false;
+        return NO;
     }
     return %orig;
 }
@@ -213,7 +213,7 @@ disable screenshot banner toggle
 %hook SBQueueViewControllerIMplementation
 -(BOOL)souldHideFooterViewController {
     if(enabled && queueFooter) {
-        return false;
+        return NO;
     }
     return %orig;
 }
@@ -222,7 +222,7 @@ disable screenshot banner toggle
 %hook SPTGaiaSocialListeningIntegrationManager
 -(BOOL)isSocialDeviceFeatureEnabled {
     if(enabled && socialListening) {
-        return false;
+        return NO;
     }
     return %orig;
 }
@@ -233,28 +233,28 @@ disable screenshot banner toggle
 %hook SPTLocalFilesImportManager
 -(BOOL)enabled {
     if(enabled && importMusic) {
-        return true;
+        return YES;
     }
     return %orig;
 }
 //Import Songs First
 -(BOOL)shouldStartWithSongs {
     if(enabled && importSongsFirst) {
-        return true;
+        return YES;
     }
     return %orig;
 }
 //Import Playlists First
 -(BOOL)shouldStartWithPlaylists {
     if(enabled && importPlaylistsFirst) {
-        return true;
+        return YES;
     }
     return %orig;
 }
 //Import Show Dialog
 -(BOOL)shouldShowDialog {
     if(enabled && importShowDialog) {
-        return false;
+        return NO;
     }
     return %orig;
 }
@@ -263,7 +263,7 @@ disable screenshot banner toggle
 %hook SPTVoiceTestSearchEnabled
 -(BOOL)isVoiceServiceEnabled {
     if(enabled && voiceSearchEnabled) {
-        return true;
+        return YES;
     }
     return %orig;
 }
@@ -272,14 +272,14 @@ disable screenshot banner toggle
 %hook SPTVoiceTestManagerImplementation
 -(BOOL)isNewVoiceSearchEnabled {
     if(enabled && newVoiceSearchEnabled) {
-        return true;
+        return YES;
     }
     return %orig;
 }
 //Floating Mic Button
 -(BOOL)isFloatingMicrophoneEnabled {
     if(enabled && floatingMic) {
-        return true;
+        return YES;
     }
     return %orig;
 }
@@ -288,14 +288,14 @@ disable screenshot banner toggle
 //Verified Profile Badge
 -(BOOL)isVerified {
     if(enabled && verifiedEnabled) {
-        return true;
+        return YES;
     }
     return %orig;
 }
 //Report Abuse
 -(BOOL)reportAbuseEnabled {
     if(enabled && reportAbuse) {
-        return true;
+        return YES;
     }
     return %orig;
 }
@@ -304,7 +304,7 @@ disable screenshot banner toggle
 %hook SPTNowPlayingTestManagerImplementation
 -(BOOL)isNowPlayingBarImprovementsEnabled {
     if(enabled && nowPlayingBarImprovements) {
-        return false;
+        return NO;
     }
     return %orig;
 }
@@ -319,7 +319,7 @@ whats new section toggle
 %hook GLUELabelStyle
 -(BOOL)upperCase {
     if(enabled && bigText) {
-        return true;
+        return YES;
     }
     return %orig;
 }
@@ -337,7 +337,7 @@ whats new section toggle
 %hook SPTGaiaSocialListeningIntegrationManager
 -(BOOL)shouldShowParticipantsInNowPlayingView {
     if(enabled && participantsNowPlaying) {
-        return true;
+        return YES;
     }
     return %orig;
 }
@@ -346,7 +346,7 @@ whats new section toggle
 %hook SPTNowPlayingViewController
 -(BOOL)barViewControllerInteractiveTransitionEnabled:(id)arg {
     if(enabled && nowPlayingSwipeDisabled) {
-        return false;
+        return NO;
     }
     return %orig;
 }
@@ -355,7 +355,7 @@ whats new section toggle
 %hook SPTNowPlayingDurationUnitViewModelImplementation
 -(BOOL)timeRemainingLabelShowsDuration {
     if(enabled && timeRemainingDuration) {
-        return true;
+        return YES;
     }
     return %orig;
 }
@@ -364,7 +364,7 @@ whats new section toggle
 %hook SPTYourLibraryMusicTestManagerImplementation
 -(BOOL)isShowAlbumArtistRecommendationsEnabled {
     if(enabled && albumRecommendations) {
-        return false;
+        return NO;
     }
     return %orig;
 }
@@ -382,7 +382,7 @@ whats new section toggle
 %hook SPTSidebarItem
 -(BOOL)isBadgeDisplayed {
     if(enabled && showBadges) {
-        return true;
+        return YES;
     }
     return %orig;
 }
@@ -391,19 +391,19 @@ whats new section toggle
 %hook SPTGaiaVolumeController
 -(BOOL)lockScreenVolumeControlsShouldBeActive {
     if(enabled && lockscreenVolume) {
-        return true;
+        return YES;
     }
     return %orig;
 }
 -(BOOL)isRemoteVolumeAllowedForDevice:(id)arg {
     if(enabled && remoteVolume) {
-        return true;
+        return YES;
     }
     return %orig;
 }
 -(BOOL)disableRemoteVolumePopup {
     if(enabled && remoteVolumePopup) {
-        return true;
+        return YES;
     }
     return %orig;
 }
@@ -439,7 +439,7 @@ static void loadPrefs()
         verifiedEnabled = ( [prefs objectForKey:@"verifiedEnabled"] ? [[prefs objectForKey:@"verifiedEnabled"] boolValue] : verifiedEnabled );
         reportAbuse = ( [prefs objectForKey:@"reportAbuse"] ? [[prefs objectForKey:@"reportAbuse"] boolValue] : reportAbuse );
         freeTierUI = ( [prefs objectForKey:@"freeTierUI"] ? [[prefs objectForKey:@"freeTierUI"] boolValue] : freeTierUI );
-        trueShuffle = ( [prefs objectForKey:@"trueShuffle"] ? [[prefs objectForKey:@"trueShuffle"] boolValue] : trueShuffle );
+        YESShuffle = ( [prefs objectForKey:@"YESShuffle"] ? [[prefs objectForKey:@"YESShuffle"] boolValue] : YESShuffle );
         doublePlay = ( [prefs objectForKey:@"doublePlay"] ? [[prefs objectForKey:@"doublePlay"] boolValue] : doublePlay );
         shuffleBadge = ( [prefs objectForKey:@"shuffleBadge"] ? [[prefs objectForKey:@"shuffleBadge"] boolValue] : shuffleBadge );
         bigText = ( [prefs objectForKey:@"bigText"] ? [[prefs objectForKey:@"bigText"] boolValue] : bigText );
