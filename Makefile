@@ -1,7 +1,7 @@
-DEBUG = 1
-FINALPACKAGE = 0
+DEBUG = 0
+FINALPACKAGE = 1
 
-export ARCHS = arm64
+export ARCHS = armv7 armv7s arm64 arm64e
 export TARGET = iphone:clang:latest:8.0 
 
 INSTALL_TARGET_PROCESSES = SpringBoard
