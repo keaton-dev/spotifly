@@ -99,7 +99,7 @@ album artwork in playlist toggle
 }
 %end
 //Put Playback Controls at Top
-%hook SPTNowPlayingFeedbackHeadUnitViewController
+%hook SPTNowPlayingDefaultPremiumHeadUnitViewController
 -(NSUInteger)leadingEdge {
     if(enabled && controlsTop) {
         return 1;
@@ -370,10 +370,10 @@ whats new section toggle
 }
 %end
 //Hide Tab Bar
-%hook SPTAdaptiveTabController
+%hook SPTAdaptiveTabBarController
 -(void)tabBarHidden:(BOOL)arg {
     if(enabled && hideTabBar) {
-        return true;
+        return %orig(YES);
     }
     return %orig;
 }
