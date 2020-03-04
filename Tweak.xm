@@ -117,12 +117,14 @@ album artwork in playlist toggle
 }
 %end
 //Put Footer at Top
+%hook SPTNowPlayingFooterUnitViewController
 -(NSUInteger)leadingEdge {
     if(enabled && footerTop) {
         return 1;
     }
     return %orig;
 }
+%end
 //Auto Hide Duration Labels
 %hook SPTNowPlayingInformationUnitViewController
 -(BOOL)nowPlayingDurationViewShouldAlwaysShowDurationLabels:(id)arg {
