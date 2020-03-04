@@ -53,7 +53,7 @@ album artwork in playlist toggle
 //YES Shuffle
 %hook SPTFreeTierTestManagerImplementation
 -(BOOL)isWeightedShufflePlayDisabled {
-    if(enabled && YESShuffle) {
+    if(enabled && trueShuffle) {
         return YES;
     }
     return %orig;
@@ -439,7 +439,7 @@ static void loadPrefs()
         verifiedEnabled = ( [prefs objectForKey:@"verifiedEnabled"] ? [[prefs objectForKey:@"verifiedEnabled"] boolValue] : verifiedEnabled );
         reportAbuse = ( [prefs objectForKey:@"reportAbuse"] ? [[prefs objectForKey:@"reportAbuse"] boolValue] : reportAbuse );
         freeTierUI = ( [prefs objectForKey:@"freeTierUI"] ? [[prefs objectForKey:@"freeTierUI"] boolValue] : freeTierUI );
-        YESShuffle = ( [prefs objectForKey:@"YESShuffle"] ? [[prefs objectForKey:@"YESShuffle"] boolValue] : YESShuffle );
+        trueShuffle = ( [prefs objectForKey:@"trueShuffle"] ? [[prefs objectForKey:@"trueShuffle"] boolValue] : trueShuffle );
         doublePlay = ( [prefs objectForKey:@"doublePlay"] ? [[prefs objectForKey:@"doublePlay"] boolValue] : doublePlay );
         shuffleBadge = ( [prefs objectForKey:@"shuffleBadge"] ? [[prefs objectForKey:@"shuffleBadge"] boolValue] : shuffleBadge );
         bigText = ( [prefs objectForKey:@"bigText"] ? [[prefs objectForKey:@"bigText"] boolValue] : bigText );
