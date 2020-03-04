@@ -100,7 +100,7 @@
 			<key>cell</key>
 			<string>PSButtonCell</string>
 			<key>action</key>
-			<string>killSpotify</string>
+			<string>killSpotify:</string>
 			<key>label</key>
 			<string>Apply</string>
 		</dict>
