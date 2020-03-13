@@ -22,7 +22,31 @@
 			<key>defaults</key>
 			<string>com.keaton.spotifly</string>
 			<key>key</key>
-			<string>importMusic</string>
+			<string>connectDevices</string>
+			<key>label</key>
+			<string>Connect Access Button</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>bigConnectDevicesButton</string>
+			<key>label</key>
+			<string>Big Connect Access Button</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>ImportMusicRootListController</string>
+			<key>icon</key>
+			<string></string>
+			<key>isController</key>
+			<true/>
 			<key>label</key>
 			<string>Import Your Music</string>
 		</dict>
@@ -46,9 +70,21 @@
 			<key>defaults</key>
 			<string>com.keaton.spotifly</string>
 			<key>key</key>
-			<string>newVoiceSearchEnabled</string>
+			<string>newVoiceSearch</string>
 			<key>label</key>
 			<string>New Voice Search</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>oldVoiceSearch</string>
+			<key>label</key>
+			<string>Old Voice Search</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -82,9 +118,9 @@
 			<key>defaults</key>
 			<string>com.keaton.spotifly</string>
 			<key>key</key>
-			<string>reportAbuse</string>
+			<string>nowPlayingBarImprovements</string>
 			<key>label</key>
-			<string>Report Abuse</string>
+			<string>Old Now Playing Bar</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -94,9 +130,21 @@
 			<key>defaults</key>
 			<string>com.keaton.spotifly</string>
 			<key>key</key>
-			<string>nowPlayingBarImprovements</string>
+			<string>nowPlayingBarVoice</string>
 			<key>label</key>
-			<string>Old Now Playing Bar</string>
+			<string>Now Playing Bar Voice Button</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>hideNowPlayingBarArt</string>
+			<key>label</key>
+			<string>Hide Now Playing Bar Album Art</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -118,9 +166,21 @@
 			<key>defaults</key>
 			<string>com.keaton.spotifly</string>
 			<key>key</key>
-			<string>a</string>
+			<string>followFeedOn</string>
 			<key>label</key>
-			<string>What's New Section(x)</string>
+			<string>Follow Feed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.keaton.spotifly</string>
+			<key>key</key>
+			<string>signInWithApple</string>
+			<key>label</key>
+			<string>Sign in with Apple</string>
 		</dict>
 	</array>
 	<key>title</key>

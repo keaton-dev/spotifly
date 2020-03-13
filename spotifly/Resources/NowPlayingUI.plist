@@ -8,7 +8,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>Now Playing</string>
+			<string>Now Playing UI</string>
 			<key>footerText</key>
 			<string></string>
 			<key>isStaticText</key>
@@ -22,21 +22,9 @@
 			<key>defaults</key>
 			<string>com.keaton.spotifly</string>
 			<key>key</key>
-			<string>sleepTimer</string>
+			<string>titleTop</string>
 			<key>label</key>
-			<string>Sleep Timer</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSLinkCell</string>
-			<key>detail</key>
-			<string>NowPlayingUIRootListController</string>
-			<key>icon</key>
-			<string></string>
-			<key>isController</key>
-			<true/>
-			<key>label</key>
-			<string>Now Playing UI</string>
+			<string>Put Title at Top</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -46,9 +34,9 @@
 			<key>defaults</key>
 			<string>com.keaton.spotifly</string>
 			<key>key</key>
-			<string>autoHideDurationLabels</string>
+			<string>titleCenter</string>
 			<key>label</key>
-			<string>Auto Hide Duration Labels</string>
+			<string>Put Title in Center</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -58,9 +46,9 @@
 			<key>defaults</key>
 			<string>com.keaton.spotifly</string>
 			<key>key</key>
-			<string>canvasToggle</string>
+			<string>albumControlsTop</string>
 			<key>label</key>
-			<string>Canvas Toggle</string>
+			<string>Put Album Playback Controls at Top</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -70,9 +58,9 @@
 			<key>defaults</key>
 			<string>com.keaton.spotifly</string>
 			<key>key</key>
-			<string>canvasTap</string>
+			<string>radioControlsTop</string>
 			<key>label</key>
-			<string>Canvas Tap Toggle</string>
+			<string>Put Radio Playback Controls at Top</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -82,9 +70,9 @@
 			<key>defaults</key>
 			<string>com.keaton.spotifly</string>
 			<key>key</key>
-			<string>carModeOn</string>
+			<string>durationTop</string>
 			<key>label</key>
-			<string>Car View</string>
+			<string>Put Duration Labels at Top</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -94,9 +82,9 @@
 			<key>defaults</key>
 			<string>com.keaton.spotifly</string>
 			<key>key</key>
-			<string>statusBarAlwaysOn</string>
+			<string>headerTop</string>
 			<key>label</key>
-			<string>Always Show Status Bar</string>
+			<string>Make Header Small</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -106,24 +94,12 @@
 			<key>defaults</key>
 			<string>com.keaton.spotifly</string>
 			<key>key</key>
-			<string>lyricsButtonToggle</string>
+			<string>footerTop</string>
 			<key>label</key>
-			<string>Real Time Lyrics Button</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<false/>
-			<key>defaults</key>
-			<string>com.keaton.spotifly</string>
-			<key>key</key>
-			<string>lyricsCardToggle</string>
-			<key>label</key>
-			<string>Real Time Lyrics Card</string>
+			<string>Put Footer at Top</string>
 		</dict>
 	</array>
 	<key>title</key>
-	<string>Now Playing</string>
+	<string>Now Playing UI</string>
 </dict>
 </plist>

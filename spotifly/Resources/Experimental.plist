@@ -34,18 +34,6 @@
 			<key>defaults</key>
 			<string>com.keaton.spotifly</string>
 			<key>key</key>
-			<string>artistRecomendationsSource</string>
-			<key>label</key>
-			<string>Different Artist Recommendations</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<false/>
-			<key>defaults</key>
-			<string>com.keaton.spotifly</string>
-			<key>key</key>
 			<string>participantsNowPlaying</string>
 			<key>label</key>
 			<string>Show Participants in Now Playing</string>
@@ -82,7 +70,7 @@
 			<key>defaults</key>
 			<string>com.keaton.spotifly</string>
 			<key>key</key>
-			<string>albumRecommendations</string>
+			<string>albumRecomendationsOff</string>
 			<key>label</key>
 			<string>Disable Album and Artists Recommendations</string>
 		</dict>
@@ -112,49 +100,15 @@
 		</dict>
 		<dict>
 			<key>cell</key>
-			<string>PSGroupCell</string>
-			<key>label</key>
-			<string>Not Tested</string>
-			<key>footerText</key>
-			<string></string>
-			<key>isStaticText</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
 			<string>com.keaton.spotifly</string>
 			<key>key</key>
-			<string>lockscreenVolume</string>
+			<string>legacyPD</string>
 			<key>label</key>
-			<string>Lockscreen Volume</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<false/>
-			<key>defaults</key>
-			<string>com.keaton.spotifly</string>
-			<key>key</key>
-			<string>remoteVolume</string>
-			<key>label</key>
-			<string>Remote Volume</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<false/>
-			<key>defaults</key>
-			<string>com.keaton.spotifly</string>
-			<key>key</key>
-			<string>remoteVolumePopup</string>
-			<key>label</key>
-			<string>Disable Remote Volume Popup</string>
+			<string>Legacy Premium UI</string>
 		</dict>
 	</array>
 	<key>title</key>
